@@ -1,8 +1,13 @@
 <?php
-    $rootFile = $_SERVER['DOCUMENT_ROOT'];
 
-    require_once "$rootFile/bipin/header.php";
-    require_once "footer.php";
+$array = array("bipin", "tiwari", 1, 3);
+echo $array[1];
+
+$array = array(
+    "name" => "bipin",
+    "age" => 12
+);
+
+echo $array["email"];
+
 ?>
-
-<p>MAIN</p>

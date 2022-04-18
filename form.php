@@ -13,10 +13,16 @@
     -->
 
     <form action="" method="get">
-        <input type="text" name="name">
-        <input type="text" name="age">
+        <input type="text" name="email">
+        <input type="password" name="password">
         <button type="submit">Submit</button>
     </form>
+
+    <?php
+        if( isset( $_GET['email'] ) ){
+            echo $_GET['email'];
+        }
+    ?>
 
 </body>
 </html>
