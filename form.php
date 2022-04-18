@@ -8,6 +8,10 @@
 </head>
 <body>
 
+    <!--
+        type := text, hidden, email, url, number, password
+    -->
+
     <form action="" method="get">
         <input type="text" name="name">
         <input type="text" name="age">
