@@ -25,6 +25,14 @@
         }
 
 
+        /**
+         * To check file exists
+         */
+        if( file_exists( PROJECT_DIR . "/forsell.png" ) ){
+            echo "File Exists!!!";
+        }
+
+
         if( isset( $_FILES['myfile'] ) ){
 
             /**
